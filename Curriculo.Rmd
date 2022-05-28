@@ -1,6 +1,6 @@
 ---
 name: Pedro Henrique Corrêa de Almeida
-aboutme: "Apaixonado por dados e estatística, estou buscando meu primeiro emprego onde possa aprender e depositar meu tempo, vontade e criatividade na resolução de problemas reais."
+aboutme: "Apaixonado por dados e estatística, em busca do primeiro estágio onde possa depositar meu tempo, curiosidade e esforço afim de aprender. Interesse em Python, R, SQL com foco na análise e modelagem de dados e aprendizado de máquina na solução de problemas."
 phone: (24) 99985-0253
 email: "pedrodealmeid@gmail.com"
 linkedin: PedroHCAlmeida
@@ -34,83 +34,158 @@ library(kableExtra)
 library(huxtable)
 library(gridExtra)
 ```
-
-
-\faIcon{cogs} Competências
-============================
-
-* Curioso
-* Comunicativo
-* Proativo
-* Autodidata
-* Flexível
-* Comprometido
-
-\faIcon{university} Formação Acadêmica
-============================
-
-```{r education}
-tribble(
-  ~ university, ~ study, ~ loc, ~ dates,  ~details,
-  "Graduação Ciências Exatas / Estatística", "Universidade Federal de Juiz de Fora", 
-  "Juiz de Fora - MG", "JAN/2020 - JUL/2024","EM ANDAMENTO"
-) %>% 
-  detailed_entries(study, dates, university, loc, details, .protect=FALSE)
-```
-
-\faIcon{book} Cursos Complementares
-============================ 
+\faIcon{briefcase} Experiência Profissional 
+===========================================
 ```{r}
 tribble(
   ~ university, ~ study, ~ loc, ~ dates,  ~details,
-  "BootCamp de Data Science Aplicada", "Alura", 
-  "Remoto", "Maio/2021 - Ago/2021", "EM ANDAMENTO"
+  "Treinamento Profissional JFSalvandoTodos", "Universidade Federal de Juiz de Fora",
+  "Juiz de Fora - MG", "JAN/2022 - Momento","Reponsável por contribuir no desenvolvimento da plataforma e nas análises de dados epidemiológicos realizadas nos boletins informativos."
 ) %>% 
   detailed_entries(study, dates, university, loc, details, .protect=FALSE)
+```
+Esta plataforma está sendo desenvolvida para facilitar o acesso e a visualização dos dados sobre a pandemia da COVID-19, e pode ser visitada em [JFSalvandoTodos](http://jfsalvandotodos.ufjf.br/#!/).
 
+\faIcon{university} Formação
+============================
+```{r education}
+tribble(
+  ~ university, ~ study, ~ loc, ~ dates,  ~details,
+  "Bacharelado em Estatística", "Universidade Federal de Juiz de Fora", 
+  "Juiz de Fora - MG", "Jan/2020 - Jul/2024","EM ANDAMENTO"
+) %>% 
+  detailed_entries(study, dates, university, loc, details, .protect=FALSE)
+tribble(
+  ~ university, ~ study, ~ loc, ~ dates,  ~details,
+  "Bacharelado em Ciências Exatas", "Universidade Federal de Juiz de Fora", 
+  "Juiz de Fora - MG", "Jan/2020 - Dez/2022","EM ANDAMENTO"
+) %>% 
+  detailed_entries(study, dates, university, loc, details, .protect=FALSE)
+```
+\faIcon{book} Cursos Complementares
+===================================
+```{r}
+tribble(
+  ~ university, ~ study, ~ loc, ~ dates,  ~details,
+  "Data Visualization with R Track", "DataCamp", 
+  "Remoto", "Dez/2021 - Jan/2022", "12 Horas"
+) %>% 
+  detailed_entries(study, dates, university, loc, details, .protect=FALSE)
+tribble(
+  ~ university, ~ study, ~ loc, ~ dates,  ~details,
+  "BootCamp de Data Science Aplicada", "Alura", 
+  "Remoto", "Maio/2021 - Ago/2021", "160 Horas"
+) %>% 
+  detailed_entries(study, dates, university, loc, details, .protect=FALSE)
 tribble(
   ~ university, ~ study, ~ loc, ~ dates,  ~details,
   "Estatística com Python, Partes 1, 2, 3 e 4", "Alura", 
   "Remoto", "Jun/2021 - Ago/2021", "40 Horas"
 ) %>% 
   detailed_entries(study, dates, university, loc, details, .protect=FALSE)
-
 tribble(
   ~ university, ~ study, ~ loc, ~ dates,  ~details,
   "SQL Fundamentals", "DataCamp", 
   "Remoto", "Maio/2021 - Maio/2021","21 Horas"
 ) %>% 
   detailed_entries(study, dates, university, loc, details, .protect=FALSE)
-
 tribble(
   ~ university, ~ study, ~ loc, ~ dates,  ~details,
   "Data Analyst with Python", "DataCamp", 
   "Remoto", "Abr/2021 - Maio/2021","62 Horas"
 ) %>% 
   detailed_entries(study, dates, university, loc, details, .protect=FALSE)
-
 tribble(
   ~ university, ~ study, ~ loc, ~ dates,  ~details,
   "Data Scientist with Python", "DataCamp", 
   "Remoto", "Mar/2021 - Maio/2021", "88 Horas"
 ) %>% 
   detailed_entries(study, dates, university, loc, details, .protect=FALSE)
+```
+\newpage
+\faIcon{clipboard} Projetos
+============================
 
+```{r}
 tribble(
   ~ university, ~ study, ~ loc, ~ dates,  ~details,
-  "Microsoft Power BI Para Data Science, Versão 2.0 ", "Data Science Academy", 
-  "Remoto", "Mar/2021 - Abr/2021", "72 Horas"
-) %>% 
-  detailed_entries(study, dates, university, loc, details, .protect=FALSE)
-
-tribble(
-  ~ university, ~ study, ~ loc, ~ dates,  ~details,
-  "Python Fundamentos Para Análise de Dados 3.0", "Data Science Academy", 
-  "Remoto", "Mar/2021 - Abr/2021", "60 Horas"
+  "Previsão do preço médio do abacate em regiões dos EUA",
+  NA,
+  "Python",
+  "Set/2021 - Set/2021", 
+  "Utilização de modelos de regressão a fim de predizer o preço médio do abacate a partir de dados relacionados a sua produção, tipo, região e data."
 ) %>% 
   detailed_entries(study, dates, university, loc, details, .protect=FALSE)
 ```
-\newpage
+
+Projeto desenvolvido no Bootcamp de Data Science na Prática 2, promovido pela [Neuron](https://www.linkedin.com/company/neuron-usp/), sendo escolhido como vencedor do desafio.Projeto pode ser conferido nesse **[link](https://colab.research.google.com/drive/1lT7GUrDRoJB3bI9YeAULGasclZ78Xr_x#scrollTo=ee2e75da-d444-4d8e-be08-b8c3ae05e002)**.
+
+```{r}
+tribble(
+  ~ university, ~ study, ~ loc, ~ dates,  ~details,
+  "Previsão da necessidade de internação para pacientes com COVID-19 ",
+  NA,
+  "Python",
+  "Jul/2021 - Ago/2021", 
+  "Utilização de modelos de classificação a fim de predizer se um paciente precisará de UTI ao chegar no Hospital. Utilizando uma base de dados do Hospital Sírio-Libanês"
+) %>% 
+  detailed_entries(study, dates, university, loc, details, .protect=FALSE)
+```
+
+Repositório do projeto pode ser conferido nesse **[link](https://github.com/PedroHCAlmeida/Projeto_final_bootcamp)** do github.
+
+```{r}
+tribble(
+  ~ university, ~ study, ~ loc, ~ dates,  ~details,
+  "Previsão de casos de COVID-19 com a biblioteca fbprophet. ",  NA,
+  "Python",
+  "Jun/2021 - Jun/2021", "Análise dos números de casos e óbitos de COVID-19 por dia, utilizando a biblioteca fbprophet para realizar previsões do número de casos e analisar padrões de sazonalidade."
+) %>% 
+  detailed_entries(study, dates, university, loc, details, .protect=FALSE)
+```
+
+Repositório do projeto pode ser conferido nesse **[link](https://github.com/PedroHCAlmeida/analise_temporal_COVID_Brasil)** do github.
+
+```{r}
+tribble(
+  ~ university, ~ study, ~ loc, ~ dates,  ~details,
+  "Análise de dados públicos acerca de casos, óbitos e vacinação contra as Hepatites A, B e C no Brasil", 
+  NA, 
+  "Python",
+  "Jun/2021 - Jun/2021",
+  "Análise de dados públicos relacionados às Hepatite A, B e C. Foram estudados as relações do número de casos, óbitos e vacinas."
+) %>% 
+  detailed_entries(study, dates, university, loc, details, .protect=FALSE)
+```
+
+Repositório do projeto pode ser conferido nesse **[link](https://github.com/PedroHCAlmeida/projeto_um_mal_silencioso)** do github.
+
+\faIcon{clipboard} Reconhecimentos
+====================================== 
+
+```{r}
+tribble(
+  ~ university, ~ study, ~ loc, ~ dates,  ~details,
+  "Vencedor do desafio final do Bootcamp de Data Science na Prática", 
+  "Neuron", 
+  NA,
+  "Set/2021",
+  "Meu projeto foi um dos 3 vencedores no Bootcamp de Data Science na Prática 2, promovido pela Neuron."
+) %>% 
+  detailed_entries(study, dates, university, loc, details, .protect=FALSE)
+```
+
+```{r}
+tribble(
+  ~ university, ~ study, ~ loc, ~ dates,  ~details,
+  "Bolsa de Estudos Bootcamp de Data Science Aplicada", 
+  "Alura", 
+  NA,
+  "Maio/2021",
+  "Meu projeto foi um dos 10 selecionados no evento imersão dados, promovido pela Alura, que ganharam uma bolsa de estudos para o Bootcamp de Data Science Aplicada."
+) %>% 
+  detailed_entries(study, dates, university, loc, details, .protect=FALSE)
+```
 
 \faIcon{brain} Qualificações e Interesses
 =========================================
@@ -120,9 +195,9 @@ tribble(
 ```{r, results='markup'}
 tribble(
    ~`Linguagens de Programação`, ~Ferramentas, ~Outros,
-  "Python (Intemediário)                     -- R(Básico)                     -- SQL(Básico)",
-  "Jupyter Notebook/Lab (Intemediário)       -- Power BI (Intemediário)       -- RStudio (Básico)",
-  "Markdown (Intemediário) -- GitHub (Básico)"
+  "Python                     -- R                   -- SQL",
+  "Jupyter Notebook/Lab        -- Power BI        -- RStudio",
+  "Markdown  -- GitHub  --Microsoft Office"
 ) %>%
   kable(booktabs = T, align = 'c', escape = F, format = "latex") %>%
   kable_styling(full_width = F, font_size = 9) %>% 
@@ -149,59 +224,5 @@ data.frame(
   kable_styling(latex_options = "hold_position")
 ```
 
-\faIcon{clipboard} Projetos
-============================ 
-```{r}
-tribble(
-  ~ university, ~ study, ~ loc, ~ dates,  ~details,
-  "Previsão da necessidade de internação para pacientes com COVID-19 ",
-  NA,
-  "Python",
-  "Jul/2021 - Ago/2021", 
-  "Utilização de modelos de classificação a fim de prever se um paciente precisará de UTI ao chegar no Hospital. Utilizando uma base de dados do Hospital Sírio-Libanês"
-) %>% 
-  detailed_entries(study, dates, university, loc, details, .protect=FALSE)
-```
 
-Repositório do projeto pode ser conferido nesse [link](https://github.com/PedroHCAlmeida/Projeto_final_bootcamp) do github.
 
-```{r}
-tribble(
-  ~ university, ~ study, ~ loc, ~ dates,  ~details,
-  "Previsão de casos de COVID-19 com a biblioteca fbprophet. ",  NA,
-  "Python",
-  "Jun/2021 - Jun/2021", "Análise dos números de casos e óbitos de COVID-19 por dia, utilizando a biblioteca fbprophet para realizar previsões do número de casos e analisar padrões de sazonalidade."
-) %>% 
-  detailed_entries(study, dates, university, loc, details, .protect=FALSE)
-```
-
-Repositório do projeto pode ser conferido nesse [link](https://github.com/PedroHCAlmeida/analise_temporal_COVID_Brasil) do github.
-
-```{r}
-tribble(
-  ~ university, ~ study, ~ loc, ~ dates,  ~details,
-  "Análise de dados públicos acerca de casos, óbitos e vacinação contra as Hepatites A, B e C no Brasil", 
-  NA, 
-  "Python",
-  "Jun/2021 - Jun/2021",
-  "Análise de dados públicos relacionados às Hepatite A, B e C. Foram estudados as relações do número de casos, óbitos e vacinas."
-) %>% 
-  detailed_entries(study, dates, university, loc, details, .protect=FALSE)
-```
-
-Repositório do projeto pode ser conferido nesse [link](https://github.com/PedroHCAlmeida/projeto_um_mal_silencioso) do github.
-
-\faIcon{clipboard} Reconhecimentos
-====================================== 
-
-```{r}
-tribble(
-  ~ university, ~ study, ~ loc, ~ dates,  ~details,
-  "Bolsa de Estudos Bootcamp de Data Science Aplicada", 
-  "Alura", 
-  NA,
-  "Maio/2021",
-  "Fui um dos 10 projetos selecionados do evento imersão dados, promovido pela Alura, que ganharam uma bolsa de estudos para o Bootcamp de Data Science Aplicada."
-) %>% 
-  detailed_entries(study, dates, university, loc, details, .protect=FALSE)
-```
